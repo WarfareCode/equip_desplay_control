@@ -1,0 +1,21 @@
+<GDAL_WMS>
+	<service name="TMS">
+		<ServerUrl>file:///G:/TMS/Tiles/${z}/${x}/${y}.png</ServerUrl>
+		<ImageFormat>image/png</ImageFormat>
+	</service>
+	<DataWindow>
+		<UpperLeftX>-20037508.34</UpperLeftX>
+		<UpperLeftY>20037508.34</UpperLeftY>
+		<LowerRightX>20037508.34</LowerRightX>
+		<LowerRightY>-20037508.34</LowerRightY>
+		<TileLevel>8</TileLevel>
+		<TileCountX>1</TileCountX>
+		<TileCountY>1</TileCountY>
+		<YOrigin>top</YOrigin>
+	</DataWindow>
+	<Projection>EPSG:4236</Projection>
+	<BlockSizeX>256</BlockSizeX>
+	<BlockSizeY>256</BlockSizeY>
+	<BandsCount>3</BandsCount>
+	<Cache></Cache>
+</GDAL_WMS>
